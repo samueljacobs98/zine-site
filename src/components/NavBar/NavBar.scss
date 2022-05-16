@@ -1,6 +1,20 @@
+@use "../../styles/variables.scss" as *;
 .NavBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  background-color: $primary-color;
+}
+.NavBarDesktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 2rem;
+  background-color: $primary-color;
+  &__icons {
+    display: flex;
+    gap: 1rem;
+  }
 }
