@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match NavBar component snapshot 1`] = `
+<div>
+  <div
+    class="NavBarDesktop"
+  >
+    <img
+      alt=""
+      src="Menu.svg"
+    />
+    <h2
+      class="NavBarDesktop__title"
+    >
+      ZINESTORE
+    </h2>
+    <div
+      class="NavBarDesktop__icons"
+    >
+      <img
+        alt=""
+        src="Search.svg"
+      />
+      <img
+        alt=""
+        src="Upload.svg"
+      />
+      <img
+        alt=""
+        src="Notifications.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
