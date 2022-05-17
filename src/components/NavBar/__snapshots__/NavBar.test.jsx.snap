@@ -18,15 +18,15 @@ exports[`should match NavBar component snapshot 1`] = `
       class="NavBarDesktop__icons"
     >
       <img
-        alt=""
+        alt="Search Icon"
         src="Search.svg"
       />
       <img
-        alt=""
+        alt="Upload Icon"
         src="Upload.svg"
       />
       <img
-        alt=""
+        alt="Notifications Icon"
         src="Notifications.svg"
       />
     </div>

@@ -7,22 +7,23 @@ import useWindowSize from "../../hooks/useWindowsSize.js";
 
 const NavBar = () => {
   const windowIsDesktop = useWindowSize(1024);
+  const zineName = "ZINESTORE";
 
   const mobileNav = (
     <div className="NavBar">
-      <h2 className="NavBar__title">ZINESTORE</h2>
-      <img className="NavBar__menu" src={Menu} alt="" />
+      <h2 className="NavBar__title">{zineName}</h2>
+      <img className="NavBar__menu" src={Menu} alt="Menu Icon" />
     </div>
   );
 
   const desktopNav = (
     <div className="NavBarDesktop">
       <img src={Menu} alt="" />
-      <h2 className="NavBarDesktop__title">ZINESTORE</h2>
+      <h2 className="NavBarDesktop__title">{zineName}</h2>
       <div className="NavBarDesktop__icons">
-        <img src={Search} alt="" />
-        <img src={Upload} alt="" />
-        <img src={Notifications} alt="" />
+        <img src={Search} alt="Search Icon" />
+        <img src={Upload} alt="Upload Icon" />
+        <img src={Notifications} alt="Notifications Icon" />
       </div>
     </div>
   );
