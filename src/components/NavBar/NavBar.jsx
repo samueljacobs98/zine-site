@@ -18,7 +18,7 @@ const NavBar = () => {
 
   const desktopNav = (
     <div className="NavBarDesktop">
-      <img src={Menu} alt="" />
+      <img src={Menu} alt="Menu Icon" />
       <h2 className="NavBarDesktop__title">{zineName}</h2>
       <div className="NavBarDesktop__icons">
         <img src={Search} alt="Search Icon" />
