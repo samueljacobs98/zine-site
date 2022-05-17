@@ -5,9 +5,8 @@
 // we can manipulate the :root element's font-size at different breakpoints to scale up the font-size application-wide
 
 * {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: $text-color;
+  font-family: $font-general;
+  color: $secondary-color;
 }
 
 h1,
@@ -19,8 +18,6 @@ h6,
 p {
   // adding display and width prevents margin collapse on these semantic text elements
   margin: 0.5rem 0;
-  display: inline-block;
-  width: 100%;
 }
 
 button {
