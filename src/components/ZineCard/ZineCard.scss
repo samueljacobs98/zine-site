@@ -1,9 +1,12 @@
-@use "../../styles/variables.scss" as *;
+@use "../../styles//variables.scss" as *;
 .zineCard {
-  border: 2px solid red;
+  max-width: 350px;
+  background-color: $primary-color;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-auto-rows: minmax(100px, auto);
   grid-template-areas:
     "title zineImage"
     ".   zineImage"
@@ -12,15 +15,31 @@
   &__title {
     color: $primary-color;
     grid-area: title;
+    transform: rotate(270deg);
+    align-self: flex-end;
+    justify-self: center;
+    font-size: $font-size-smaller;
+    color: $secondary-color;
   }
   &__profileName {
     color: $primary-color;
     grid-area: profileName;
+    transform: rotate(270deg);
+    align-self: center;
+    justify-self: center;
+    font-size: $font-size-tiny;
+    color: $secondary-color;
   }
   &__profileImage {
     grid-area: profileImage;
+    justify-self: center;
+    width: 50%;
   }
   &__zineImage {
     grid-area: zineImage;
+    align-self: center;
+    justify-self: center;
+    width: 80%;
+    height: 80%;
   }
 }

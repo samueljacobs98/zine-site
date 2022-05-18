@@ -6,9 +6,9 @@ import Zine from "../../assets/images/Zine.png";
 const ZineCardContainer = () => {
   return (
     <ZineCard
-      title="title"
+      title="CEREAL"
       Zineimage={Zine}
-      profileName="profileName"
+      profileName="JOHN SMTIH"
       profileImage={me}
     />
   );
