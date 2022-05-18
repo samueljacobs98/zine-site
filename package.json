@@ -1,5 +1,6 @@
 {
-  "name": "react-boilerplate",
+  "name": "zine-site",
+  "homepage": "https://samueljacobs98.github.io/zine-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.27.1",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.5.1",
     "react-scripts": "5.0.0",
     "sass": "^1.46.0"
@@ -24,7 +26,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
