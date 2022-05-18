@@ -1,4 +1,26 @@
 @use "../../styles/variables.scss" as *;
 .zineCard {
   border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "title zineImage"
+    ".   zineImage"
+    "profileName zineImage"
+    "profileImage zineImage";
+  &__title {
+    color: $primary-color;
+    grid-area: title;
+  }
+  &__profileName {
+    color: $primary-color;
+    grid-area: profileName;
+  }
+  &__profileImage {
+    grid-area: profileImage;
+  }
+  &__zineImage {
+    grid-area: zineImage;
+  }
 }

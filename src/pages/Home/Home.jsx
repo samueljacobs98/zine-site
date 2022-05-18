@@ -1,12 +1,12 @@
 import Layout from "../../components/Layout/Layout";
 import NavBar from "../../components/NavBar/NavBar";
-import ZineCard from "../../components/ZineCard/ZineCard";
+import ZineCardContainer from "../../components/ZineCardContainer/ZineCardContainer";
 
 const Home = () => {
   return (
     <Layout>
       <NavBar />
-      <ZineCard />
+      <ZineCardContainer />
     </Layout>
   );
 };

@@ -6,10 +6,10 @@ import Zine from "../../assets/images/Zine.png";
 const ZineCardContainer = () => {
   return (
     <ZineCard
-      title={"title"}
-      image={me}
-      profileName={"profileName"}
-      profileImage={Zine}
+      title="title"
+      Zineimage={Zine}
+      profileName="profileName"
+      profileImage={me}
     />
   );
 };
