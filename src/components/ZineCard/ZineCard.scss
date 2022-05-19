@@ -1,6 +1,7 @@
 @use "../../styles//variables.scss" as *;
 .zineCard {
-  max-width: 280px;
+  max-width: 320px;
+  height: 380px;
   width: 100%;
   padding: 0.5rem;
   background-color: $primary-color;
