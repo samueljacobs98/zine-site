@@ -1,17 +1,19 @@
 import "./ZineCardContainer.scss";
 import ZineCard from "../ZineCard/ZineCard";
-import profile from "../../assets/images/profile.png";
-import Zine from "../../assets/images/Zine.png";
+import zineCardData from "../../assets/MockData";
 
 const ZineCardContainer = () => {
-  return (
-    <ZineCard
-      title="CEREAL"
-      Zineimage={Zine}
-      profileName="JOHN SMTIH"
-      profileImage={profile}
-    />
-  );
+  return zineCardData.map((zine) => {
+    return (
+      <ZineCard
+        key={zine.id}
+        title={zine.title}
+        Zineimage={zine.zineImage}
+        profileName={zine.name}
+        profileImage={zine.profileimage}
+      />
+    );
+  });
 };
 
 export default ZineCardContainer;
