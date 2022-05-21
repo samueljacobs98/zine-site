@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match NavBar component snapshot 1`] = `
+<div>
+  <div
+    class=" sidebar-block-close"
+  >
+    <div
+      class="sidebar-profile"
+    >
+      <img
+        alt=""
+        class="sidebar-picture"
+        src="SamplePhoto.jpg"
+      />
+      <p
+        class="sidebar-name"
+      >
+        @
+      </p>
+    </div>
+    <div
+      class="sidebar-links"
+    >
+      <a
+        class="sidebar-link"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="sidebar-link"
+        href="/"
+      >
+        Followers
+      </a>
+      <a
+        class="sidebar-link"
+        href="/"
+      >
+        Following
+      </a>
+      <a
+        class="sidebar-link"
+        href="/"
+      >
+        Trending
+      </a>
+    </div>
+    <button
+      class="sidebar-button"
+    >
+      LOG OUT
+    </button>
+  </div>
+</div>
+`;
