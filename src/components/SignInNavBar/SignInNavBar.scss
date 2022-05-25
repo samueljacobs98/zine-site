@@ -1,6 +1,11 @@
 @use "../../styles/variables.scss" as *;
 .signInNavBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   &__title {
     background-color: $primary-color;
+    padding: 0.8rem;
   }
 }
