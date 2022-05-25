@@ -1,12 +1,11 @@
-import Button from "../../components/Button/Button";
 import Layout from "../../components/Layout/Layout";
+import SignInNavBar from "../../components/SignInNavBar/SignInNavBar";
 import ZineCardContainer from "../../components/ZineCardContainer/ZineCardContainer";
 
 const SignIn = () => {
   return (
     <Layout>
-      <Button buttonText="lOG IN" />
-      <Button buttonText="SIGN UP" />
+      <SignInNavBar zineName="ZINESTORE" />
       <ZineCardContainer />
     </Layout>
   );
