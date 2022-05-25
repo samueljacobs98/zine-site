@@ -1,0 +1,8 @@
+@use "../../styles/variables" as *;
+button {
+  background-color: $primary-color;
+  border-radius: 6px;
+  padding: 0.5rem;
+  width: 150px;
+  font-family: $font-button;
+}
